@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.login
+{
+    width: 100px;
+    padding: 8px 0;
+    margin-top: 25px;
+    outline: none !important;
+    border: 2px solid #1db954;
+    border-radius: 50px;
+    background: #1db954;
+    color: #000;
+    float: left;
+    transition: .2s;
+}
+.login:hover
+{
+    background: #000;
+    color:#000 ;
+}
+.contain
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(Images/riv.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a img
+{
+    position: relative;
+    right: 300px;
+    bottom: 240px;
+    width: 100px;
+}
+a p
+{
+    position: relative;
+    right: 320px;
+    bottom: 220px;
+    width: 200px;
+}
+.card
+{
+    position: relative;
+    right: 100px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.6);
+    perspective: 1000px;
+}
+.card h2
+{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.box
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.front,.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    background-image: url(Images/purple.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.back
+{
+    transform: rotateY(180deg);
+}
+.input
+{
+    width: 100%;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+::placeholder
+{
+    color: black;
+    font-size: 15px;
+}
+.btn
+{
+    position: relative;
+}
+.btn
+{
+    width: 100px;
+    padding: 8px 0;
+    margin-top: 100px;
+    outline: none !important;
+    border: 2px solid #1db954;
+    border-radius: 50px;
+    background: #1db954;
+    color: #000;
+    float: right;
+    transition: .2s;
+}
+.btn:hover
+{
+    background: #000;
+    color:#000 ;
+}
