@@ -37,8 +37,8 @@
 a img
 {
     position: relative;
-    right: 300px;
-    bottom: 240px;
+    right: auto;
+    bottom: auto;
     width: 100px;
 }
 a p
